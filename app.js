@@ -282,3 +282,105 @@
 //   }
 // }
 // console.log(uzun());
+
+// 55
+// function num() {
+//   let a = prompt("Son kiriting");
+//   let b = prompt("Son kiriting");
+//   let c = 1;
+
+//   for (let i = 0; i < b; i++) {
+//     c = c * a;
+//   }
+//   return c;
+// }
+// console.log(num());
+
+// 56
+// function num() {
+//   let a = prompt("Son kiriting");
+
+//   return a[a.length - 2];
+// }
+// console.log(num());
+
+// 57
+// function num() {
+//   let a = prompt("Yil kiriting");
+
+//   if (a % 4 == 0) {
+//     return "True";
+//   } else {
+//     return "False";
+//   }
+// }
+// console.log(num());
+
+// 58
+// function num() {
+//   let a = prompt("So'z kiriting");
+
+//   return a.slice(1);
+// }
+// console.log(num());
+
+// 59
+// function num() {
+//   let a = prompt("True/Folse bittasini tanlang");
+
+//   if (a == "True" || "true" || "TRUE") {
+//     return "False";
+//   } else if (a == "False" || "false" || "FALSE") {
+//     return "True";
+//   }
+// }
+// console.log(num());
+
+// 60
+// function num() {
+//   let a = prompt("Son kiriting");
+
+//   if (a % 2 == 0) {
+//     return "Bu son - Juft";
+//   } else {
+//     return "Bu son - Toq";
+//   }
+// }
+// console.log(num());
+
+// 61
+// function num() {
+//   let a = prompt("Qavatlar soni");
+
+//   return a * a;
+// }
+// console.log(num());
+
+// 62
+// function num(arr) {
+//   return arr.join("");
+// }
+// console.log(num([1, "Hello", 2, "world"]));
+
+// 63
+// function num() {
+//   let a = prompt("Son kiriting");
+//   let b = prompt("Son kiriting");
+
+//   return a.concat(b);
+// }
+// console.log(num());
+
+// 64
+// function num(arr, element) {
+//   return arr.indexOf(element);
+// }
+// let massiv = [10, 20, 30, 40, 50];
+// console.log(num(massiv, 30));
+
+// 65
+// function num(arr, index) {
+//   let number = Math.floor(index);
+//   return arr[Math.min(number, arr.length - 1)];
+// }
+// console.log(num([1, 2, 3, 4, 5, 6], 10 / 2));
